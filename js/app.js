@@ -2,8 +2,6 @@
 let calculoTotal;
 limpar();
 
-
-
 function adicionar() {
     // Recuperar nome dos produtos,valor dos produtos, quantidade dos produtos
     let produto = document.getElementById('produto').value;
@@ -42,7 +40,6 @@ function adicionar() {
     document.getElementById('quantidade').value = '';
 
 }
-
 
 // Limpando o carrinho e o total ao clicar no botao limpar e ao carregar a página
 function limpar() {
